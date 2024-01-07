@@ -1,0 +1,8 @@
+body {
+  font-family: Merriweather, Inter;
+}
+
+/* section 1 styles */
+.section-1 {
+  background-image: url("resources/Banner\ Image.png");
+}
