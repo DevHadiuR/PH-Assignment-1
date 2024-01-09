@@ -245,6 +245,9 @@
   height: 390px;
   padding-bottom: 24px;
 }
+
+
+
 .best-gift-container-img .section-2 {
   display: flex;
   height: 390px;
@@ -528,6 +531,7 @@ footer {
 
   background-image: url("resources/Rectangle\ 1.png");
   background-repeat: no-repeat;
+  
 }
 .holiday-container-img .holiday-box {
   display: flex;
