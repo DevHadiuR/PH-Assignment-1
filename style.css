@@ -404,3 +404,135 @@ footer {
   background-color: transparent;
   border: 0px;
 }
+
+/* Coming soon section  */
+
+.coming-container {
+  margin: 120px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.coming-container-text1 h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+.coming-container-text1 h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 0px;
+  padding-bottom: 13px;
+}
+.coming-container-text1 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 350px;
+  height: 100px;
+  padding-top: 0px;
+}
+.coming-container-text2 h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+.coming-container-text2 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 250px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+.coming-container-text2 img {
+  padding-top: 0px;
+}
+.coming-container-img {
+  margin-top: -50px;
+  border-radius: 100%;
+  border: 15px solid #f00;
+  padding: 50px;
+}
+
+/* Holday sales section  */
+
+.holiday {
+  margin: 120px 80px;
+  height: auto;
+}
+.holiday-container-text h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.holiday-container-text h1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#span-1 {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+#span-2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.holiday-container-text p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+.holiday-container-img .holiday-50 {
+  display: flex;
+  justify-content: space-between;
+
+  background-image: url("resources/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+}
+.holiday-container-img .holiday-box {
+  display: flex;
+  justify-content: space-between;
+
+  background-image: url("resources/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+}
