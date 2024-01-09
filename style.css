@@ -149,3 +149,59 @@ p {
   flex-shrink: 0;
   padding: 48px;
 }
+
+/* <!-- new park section start --> */
+
+.banner-new-park {
+  margin: 120px 80px;
+  padding: 100px 380px;
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 10px;
+}
+
+.banner-new-park-container .banner-new-park-info {
+  padding-bottom: 0px;
+}
+
+.banner-new-park-container .banner-new-park-info .new-park-black {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 55px;
+  text-transform: capitalize;
+}
+.banner-new-park-container button {
+  border-radius: 8px;
+  background: #f00;
+  display: inline-flex;
+  padding: 10px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#new-park-red {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
